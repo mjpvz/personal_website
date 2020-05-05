@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitchell. </title>
+    <link rel="stylesheet" href="https://stackedit.io/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+      .black{color:black}
+      .title{font-size: 1.5em;}
+      .title-smaller{font-size:1.2em;}
+      .spacing{
+        margin:0.5em;
+    }
+    .top-animation{
+        position: relative;
+        animation: animatetop 0.4s
+    }
+    .top{
+        width:750px; /* Width is set relativly to the rest due to position fixed on load. Set this, so it doesn't jump aroud during loading*/
+        position: fixed;
+        z-index: 1;
+        background-color: white;
+        border-bottom: 2px solid grey ;
+        padding-bottom: 0.5em;
+    }
+    .top-margin{
+        margin-top:-.5em
+    }
+    @media (max-width: 54em) {
+        .title{font-size:1.2em}
+        .title-smaller{font-size:1em;}
+        .spacing{margin:0.4em;}
+    }
+    @media (max-width: 48em) {
+        .title{font-size:1em}
+        .title-smaller{font-size:0.8em;}
+        .spacing{margin:0.2em;}
+        .small{display:none}
+      }
+
+    .menu-links {
+        font-family: "Roboto Slab", serif;
+        font-weight: 400;
+        color: #313131;
+        letter-spacing: -.025rem;
+        margin-top: 0.5em;
+    }
+    a,b,h5,.red{
+        color: #a00;
+        text-decoration: none;
+    }
+    s2{
+        color:lightslategray;
+        margin-left:2em;
+    }
+    s1{
+        color:lightslategray
+    }
+    .image{
+        max-height:240px;
+        margin:20px;
+        border-radius:50%;
+    }
+    .text_with_image{
+        overflow: auto; 
+        margin-top:6em;
+    }
+    .right{
+        float:right;
+    }
+
+    h2 {position:relative}
+    h2 span {
+        position: absolute;
+        top:-150px;
+    }
+
+
+</style>
+
+<body class="stackedit">
+    <div class="stackedit__html">
+        <div id="child" class="top"> 
+            <p> <span class='title'>Mitchell van Zuijlen, MSc. </span>  <span class="small"> Perceptual Scientist </span>  
+            <span class='right'> 
+                <a href="https://www.facebook.com/mitchell.zuylen" target="_blank"> <i class="black fa fa-facebook-official w3-hover-opacity"></i></a>
+                <a href="https://www.instagram.com/mizuylen/" target="_blank"> <i class="black fa fa-instagram w3-hover-opacity"></i></a>
+                <a href="https://www.linkedin.com/in/mitchell-van-zuijlen-514336119/" target="_blank"> <i class="black fa fa-linkedin w3-hover-opacity"></i></a>
+            </span></p>
+
+            <div class="menu-links"> 
+                <a class='title-smaller anchor' href=#about> About me </a><span class="spacing"> - </span>
+                <a class='title-smaller anchor' href=#my-skills> Skills </a><span class="spacing"> - </span>
+                <a class='title-smaller anchor' href=#research> Research </a><span class="spacing"> - </span>
+                <a class='title-smaller anchor' href=#education> Education & Experience </a><span class="spacing"> - </span>
+                <a class='title-smaller anchor' href=#contact> Contact me </a>
+            </div>
+        </div>
+
+        <hr class='top-margin'>
+        <h2> <span id="about"> </span> </h2>
+        <div class="text_with_image" id="relative_to_this">
+            <img src='images/me.jpeg' align='right' class='image'>
+            <p ><b>Researcher, Psychologist, Developer and all-round Nerd.</b> <br>I’m a cognitive psychologist, currently working in the field of human material perception at the Technical University of Delft. 
+                I’ve always been facinated by the human brain and the way we experience and perceive the world around us. I enjoy using technology and aim for innovative solutions in my work.
+                 Self-improvement is - and always has been - important to me; I’m motivated to be the best I can be. As a result, I enjoy learning new things and I love the thrill of discovery.
+                  Outside of work, I'm always listing to music and I love traveling and seeing new places. I'm an avid reader and devour practically everything, from the oldest classics to the newest science fiction. 
+                 If there’s one word to describe me, it’s curious.</p>
+        </div>
+
+        <h2> <span id="my-skills"> </span>  My skills</h2>
+        <p><b>Researcher</b> I have a background in pyschology, where I was always interestesed in perception. I am currently working in the field of human visual perception, with a focus on material perception. My natural curiosity, combined with my analytical mindset keeps me commited and motivated to make my mark in this field. I like encorperating technology into my research, as illustrated by my self-taught experience with programming and coding.</p>
+        <p><b>Developer</b> I am a self-taught coder and have written code used in a variety of projects such as VR experiments, fMRI- EEG- and EMG-studies. My current research project used a big-data approach for which I collected data from thousands of citizen scientists over the internet. I have a preference for using Python, but depending on the project I’m comfortable with using Matlab and JavaScript (and html,css). If need be, I can make some minor changes to some C source-code .</p>
+        <p><b>Languages</b> I’m a native Dutch speaker, I’m fluent in English and I usually manage to order the right food in German, French and Spanish.</p>
+        <h2> <span id="research"> </span>  research</h2>
+        <h5 id="papers">Papers</h5>
+        <ul>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. (in press, 2020). Painterly depiction of material properties <em>Journal of Vision</em></p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. (in press, 2020). Conventions and temporal differences in painted faces: A study of posture and color distribution <em> Electronic Imaging Conference Proceedings</em>.</p>
+            </li>
+        </ul>
+        <h5 id="talks">Talks</h5>
+        <ul>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. Conventions and temporal differences in painted faces. <em>Electronic Imaging</em>. California, USA. July, 2020.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. Material qualities for depicted materials in paintings compared to photographic materials. <em>Conference on Empirical Methods in Art History and Visual Studies </em>. Vienna, Austria. July, 2019.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. Material qualities for depicted materials in paintings compared to photographic materials. <em>Conference on Empirical Methods in Art History and Visual Studies </em>. Vienna, Austria. July, 2019.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. Material property space analysis for depicted materials. <em>Visual Science Society (VSS)</em>. Flordia, USA. May, 2019.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Lin, H., Upchurch, P., Bala, K., Pont, S.C., Wijntjes, M.W.A. Perceptual qualities of things. <em>Perception Day.</em> Nijmegen, The Netherlands. December, 2018.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Lin, H., Upchurch, P., Bala, K., Pont, S.C., Wijntjes, M.W.A. The influence of scene context on perception of material properties. <em>The Skin of Things (TSOT)</em>. Amsterdam, The Netherlands. November, 2018.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Lin, H., Upchurch, P., Bala, K., Pont, S.C., Wijntjes, M.W.A. Has the depiction of the human face changed over the centuries? <em>The Visual Science of Art Conference (VSAC)</em>. Trieste, Italy. August, 2018.</p>
+            </li>
+
+
+
+
+        </ul>
+        <h5 id="posters">Posters</h5>
+        <ul>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. Relations between material classes and material attributes. European Conference on Visual Perception (ECVP). Leuven, Belgium. August, 2019.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. Material Incidence and spatial analysis of materials in Visual Pre-Modern Art. The Visual Science of Art Conference (VSAC). Leuven, Belgium. August, 2019.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., di Cicco, F., Pont, S.C., Wijntjes, M.W.A. Material cues from the past: Experimentally testing a historical description of material rendering. European Conference on Visual Perception (ECVP). Trieste, Italy. August, 2018.</p>
+            </li>
+            <li>
+                <p>Hurlbert, A., van Zuijlen, M.J.P., Spoiala, C., Wijntjes, M.W.A. Painting the time of day: colour determines perceived circadian phase in visual art. The Visual Science of Art Conference (VSAC). Trieste, Italy. August, 2018.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. Human classification of depicted materials in paintings. European Conference on Visual Perception (ECVP). Berlin, Germany. August, 2017.</p>
+            </li>
+            <li>
+                <p>van Zuijlen, M.J.P., Pont, S.C., Wijntjes, M.W.A. Depicted material categories in online museum collections. The Visual Science of Art Conference (VSAC). Berlin, Germany. August, 2017.</p>
+            </li>
+
+
+        </ul>
+        <h2> <span id="education"> </span> Education and experience </h2>
+
+        <p><b> Visual communication of material properties</b>, PhD<span class='right'>Jan 2017 - Current </span>
+            <br> <s2>@</s2>Delft University of Technology.
+            <br> Development and analysis of a large-scale annotated material depiction database containing 20k+ paintings, with 300k+ segmentations and millions of user-generated datapoints.
+        </p>
+        <div style='padding-left:5em'>
+            <p><b>Lab visit</b> <s1>@</s1>Cornell University.<span class="right"> 6 months</span>
+                <br> A focus on updating and adapting a system to collect millions of responses over the internet.
+            </p>
+        </div>
+        <hr>
+
+
+        <p><b> Applied Cognitive Psychology</b>, MSc<span class='right'>Sep 2015 - Sep 2016</span>
+            <br> <s2>@</s2>Utrecht University.
+        </p>
+        <div style='padding-left:5em'>
+            <p><b>Intership</b> <s1>@</s1>Philips Research.<span class="right"> 8 months</span>
+                <br> Digitalizaiton of traditional <em>pen-and-paper</em> tests used for cognitive neurodiagnostical assessment.
+            </p>
+            <p><b>Intership</b> <s1>@</s1>Utrecht University.<span class="right"> 3 months</span>
+                <br> Validation and comparison study of a low-cost, consumer-grade EEG/EMG system relative to state of the art. 
+            </p>
+        </div>
+
+
+
+
+        <hr>
+        <p><b>Cognitive Neurobiological Psychology</b>, BSc <span class="right">Sep 2012 - Sep 2015</span>
+            <br> <s2>@</s2>Utrecht University.
+        </p>
+        <div style='padding-left:5em'>
+            <p><b>Bachelor thesis</b> <s1>@</s1>Utrecht University.<span class="right"> 6 months</span>
+                <br> Using virtual reality to measure the effect of fear on perceived depth in the peripersonal space.
+            </p>
+        </div>
+
+
+                <!-- Contact Section -->
+        <h2> <span id="contact"> </span>  Contact me!</h2>
+        <div class="w3-row" id="contact">
+            <div class="w3-section">
+                <p><i class="red fa fa-map-marker "></i> Landbergstraat 15, 2628 CE Delft, The Netherlands</p>
+                <p><i class="red fa fa-envelope "> </i> Email: m.j.p.vanzuijlen@tudelft.nl</p>
+            </div>
+
+</body>
+
+<script>
+
+const parentElement = document.querySelector('#relative_to_this');
+const fixedElement = document.querySelector('#child');
+
+
+window.addEventListener('load', changeFixedElementWidth);
+window.addEventListener('resize', changeFixedElementWidth);
+
+function changeFixedElementWidth() {
+  const parentElementWidth = parentElement.getBoundingClientRect().width;
+  fixedElement.style.width = parentElementWidth + 'px';
+}
+
+
+// document.querySelectorAll('.anchor').forEach(item => {
+//   item.addEventListener('click', function() {
+//     console.log("clicky");
+//     window.scrollTo(window.scrollX, window.scrollY - 150);
+//     }
+//   )
+// });
+
+// window.addEventListener("hashchange", function () {
+//     console.log("fired")
+//     if (scrolled) {
+//         // clicked the menu items scrolls to the location. Due to postion-fixed of the top-menu, 
+//         // the page will be partially occluded by the menu. So, on each change scroll back up a little, so it shows the target content below the menu
+//         window.scrollTo(window.scrollX, window.scrollY - 120);
+//         scrolled = false;   
+//         console.log(scrolled)
+//     }
+// });
+
+</script>
+
+</html>
